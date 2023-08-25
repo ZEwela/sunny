@@ -1,4 +1,4 @@
-type Items {
+type Item {
   item_id: Int
   name: String
   price: Float
@@ -7,7 +7,12 @@ type Items {
 
 type TrackingItems {
   customer_id: String
-  items: [Items]
+  items: [Item]
+  customer: Customer
+    @materializer(
+      query: "getCustomerById"
+      arguments: [{ name: "id", field: "customer_id" }]
+    )
 }
 
 type TrackingItemsList {
