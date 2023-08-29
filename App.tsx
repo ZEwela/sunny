@@ -1,7 +1,6 @@
 import { TailwindProvider } from "tailwind-rn";
 import utilities from "./tailwind.json";
 import { NavigationContainer } from "@react-navigation/native";
-
 import RootNavigator from "./navigator/RootNavigator";
 import {
   ApolloClient,
@@ -9,10 +8,14 @@ import {
   InMemoryCache,
   gql,
 } from "@apollo/client";
-import { Text } from "react-native";
+
+const { EXPO_PUBLIC_REACT_APP_STEPZEN_API_KEY } = process.env;
 
 const client = new ApolloClient({
-  uri: "http://192.168.1.16:5001/api/crusty-chicken",
+  headers: {
+    Authorization: `Apikey ${EXPO_PUBLIC_REACT_APP_STEPZEN_API_KEY}`,
+  },
+  uri: "https://prigorodnoye.stepzen.net/api/crusty-chicken/__graphql",
   cache: new InMemoryCache(),
 });
 
