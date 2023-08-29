@@ -12,7 +12,7 @@
 
         "There are other UI libraries like NativeBase, Ant Design, UI Kitten, and Paper from the React Native Paper team. Each has its own set of features, design philosophy, and community support."
 
-    - useLayoutEffect which is hook allowing to made changes to layout before the elements going to be "painted" for client
+    - useLayoutEffect which is hook allowing to make changes to layout before the elements going to be "painted" for client
 
         "The useLayoutEffect hook in React allows you to perform actions immediately after the DOM has been updated but before the browser's layout engine runs. It's quite similar to the useEffect hook, but it's fired synchronously after all DOM mutations. This makes it suitable for tasks that need to be executed before the browser repaints the screen, such as measuring DOM nodes or making layout changes."
 
@@ -21,6 +21,8 @@
     - StepZen to create GraphQL backend interface
 
     - Apollo Client is a state management library that simplifies managing remote and local data with GraphQL
+
+    - In React Navigation, when you use the navigation.navigate() function to navigate to a screen and pass parameters, you can access those parameters in the target screen component using the useRoute() hook
 
 ## Technologies Used
 

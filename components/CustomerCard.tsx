@@ -17,7 +17,12 @@ const CustomerCard = ({ email, name, userId }: Props) => {
   const tw = useTailwind();
   const navigation = useNavigation<CustomersNavigationProp>();
   return (
-    <TouchableOpacity style={tw("mx-5 my-2")}>
+    <TouchableOpacity
+      style={tw("mx-5 my-2")}
+      onPress={() =>
+        navigation.navigate("MyModal", { name: name, userId: userId })
+      }
+    >
       <Card containerStyle={tw("m-0 rounded-lg ")} wrapperStyle={tw("")}>
         <View style={tw("flex-row justify-between")}>
           <View>
