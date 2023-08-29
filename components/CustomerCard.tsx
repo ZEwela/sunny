@@ -23,7 +23,7 @@ const CustomerCard = ({ email, name, userId }: Props) => {
         navigation.navigate("MyModal", { name: name, userId: userId })
       }
     >
-      <Card containerStyle={tw("m-0 rounded-lg ")} wrapperStyle={tw("")}>
+      <Card containerStyle={tw("m-0 rounded-lg ")}>
         <View style={tw("flex-row justify-between")}>
           <View>
             <Text style={tw("text-2xl font-bold ")}>{name}</Text>

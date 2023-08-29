@@ -30,6 +30,14 @@
   margin: 0px
 }
 
+.m-20 {
+  margin: 5rem
+}
+
+.m-auto {
+  margin: auto
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem
@@ -58,6 +66,31 @@
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px
 }
 
 .-mt-10 {
@@ -96,6 +129,42 @@
   margin-top: -0.75rem
 }
 
+.-mt-20 {
+  margin-top: -5rem
+}
+
+.ml-10 {
+  margin-left: 2.5rem
+}
+
+.mt-20 {
+  margin-top: 5rem
+}
+
+.ml-20 {
+  margin-left: 5rem
+}
+
+.mb-0 {
+  margin-bottom: 0px
+}
+
+.-mb-20 {
+  margin-bottom: -5rem
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem
+}
+
+.-mb-10 {
+  margin-bottom: -2.5rem
+}
+
+.ml-24 {
+  margin-left: 6rem
+}
+
 .block {
   display: block
 }
@@ -114,6 +183,18 @@
 
 .h-60 {
   height: 15rem
+}
+
+.h-10 {
+  height: 2.5rem
+}
+
+.h-40 {
+  height: 10rem
+}
+
+.h-full {
+  height: 100%
 }
 
 .w-full {
@@ -136,16 +217,40 @@
   justify-content: flex-end
 }
 
+.justify-center {
+  justify-content: center
+}
+
 .justify-between {
   justify-content: space-between
+}
+
+.self-center {
+  align-self: center
 }
 
 .rounded-lg {
   border-radius: 0.5rem
 }
 
+.rounded-xl {
+  border-radius: 0.75rem
+}
+
+.rounded {
+  border-radius: 0.25rem
+}
+
+.rounded-none {
+  border-radius: 0px
+}
+
 .border {
   border-width: 1px
+}
+
+.border-2 {
+  border-width: 2px
 }
 
 .border-b {
@@ -155,6 +260,46 @@
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.bg-pink-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 248 / var(--tw-bg-opacity))
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity))
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity))
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity))
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity))
+}
+
+.bg-pink-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 114 182 / var(--tw-bg-opacity))
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity))
+}
+
+.bg-pink-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity))
 }
 
 .p-1 {
@@ -169,6 +314,14 @@
   padding: 0px
 }
 
+.p-20 {
+  padding: 5rem
+}
+
+.p-5 {
+  padding: 1.25rem
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem
@@ -177,6 +330,26 @@
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
 }
 
 .pb-0 {
@@ -189,6 +362,18 @@
 
 .pb-2 {
   padding-bottom: 0.5rem
+}
+
+.pl-10 {
+  padding-left: 2.5rem
+}
+
+.pt-10 {
+  padding-top: 2.5rem
+}
+
+.pt-20 {
+  padding-top: 5rem
 }
 
 .text-center {
@@ -254,4 +439,19 @@
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity))
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity))
 }
