@@ -14,7 +14,7 @@ const DeliveryCard = ({ order, fullWidth }: Props) => {
   return (
     <Card
       containerStyle={[
-        tw(`${fullWidth ? "rounded-none m-0" : "rounded-lg"} my-2`),
+        tw(`${fullWidth ? "rounded-none m-0 p-0" : "rounded-lg"} my-2 p-0`),
         fullWidth
           ? {
               backgroundColor: "rgb(253 242 248)",
@@ -27,7 +27,7 @@ const DeliveryCard = ({ order, fullWidth }: Props) => {
             },
       ]}
     >
-      <View style={fullWidth ? tw("p-2 h-full") : tw("p-2")}>
+      <View style={fullWidth ? tw(" h-full p-1 pt-3") : tw("p-2")}>
         <Icon
           name="box"
           type="entypo"

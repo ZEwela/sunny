@@ -1,3 +1,8 @@
+## To run this project locally:
+
+    - npm install
+    - npm run start
+
 ## What I have learned from this project:
 
     - I can use React Native Navigation to create Stack Navigation where I can use one screen and back option to navigate between screens, but I can expand that and use bottom navigation to render new screens.

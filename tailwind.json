@@ -441,6 +441,14 @@
 			"paddingLeft": 20
 		}
 	},
+	"p-3": {
+		"style": {
+			"paddingTop": 12,
+			"paddingRight": 12,
+			"paddingBottom": 12,
+			"paddingLeft": 12
+		}
+	},
 	"px-10": {
 		"style": {
 			"paddingLeft": 40,
@@ -477,6 +485,12 @@
 			"paddingBottom": 40
 		}
 	},
+	"py-1": {
+		"style": {
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	},
 	"pb-0": {
 		"style": {
 			"paddingBottom": 0
@@ -505,6 +519,21 @@
 	"pt-20": {
 		"style": {
 			"paddingTop": 80
+		}
+	},
+	"pt-3": {
+		"style": {
+			"paddingTop": 12
+		}
+	},
+	"pt-2": {
+		"style": {
+			"paddingTop": 8
+		}
+	},
+	"pt-1": {
+		"style": {
+			"paddingTop": 4
 		}
 	},
 	"text-center": {
